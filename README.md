@@ -8,9 +8,9 @@
 
 ## 简介 / Introduction
 
-本项目使用深度学习方法对北京市二手房交易价格进行时间序列预测。数据来源于链家（Lianjia）平台约 31.9 万条真实成交记录，涵盖 2014–2018 年的日均价格序列。项目实现了基于一维卷积神经网络（1D-CNN）和长短期记忆网络（LSTM）的两种预测模型，并通过 Visdom 实时可视化训练过程。此外还收集了 PM2.5 数据与 13 项中国宏观经济指标（CPI、PMI、货币供应量、存贷款利率、社会融资规模等），为后续多因素建模提供数据支撑。
+本项目使用深度学习方法对北京市二手房交易价格进行时间序列预测。数据来源于链家（Lianjia）平台约 31.9 万条真实成交记录，涵盖 2014–2018 年的日均价格序列。项目实现了基于一维卷积神经网络（1D-CNN）和长短期记忆网络（LSTM）的两种预测模型，并通过 Visdom 实时可视化训练过程。此外还收集了 PM2.5 数据与 16 项中国宏观经济指标（CPI、PMI、货币供应量、存贷款利率、社会融资规模等），为后续多因素建模提供数据支撑。
 
-This project applies deep learning to time-series prediction of second-hand housing prices in Beijing. The dataset comprises approximately 319,000 real transaction records from the Lianjia platform, covering daily average prices from 2014 to 2018. Two prediction models are implemented — a 1D Convolutional Neural Network (1D-CNN) and a Long Short-Term Memory network (LSTM) — with Visdom providing real-time training visualization. Additionally, PM2.5 data and 13 macroeconomic indicators (CPI, PMI, money supply, deposit/loan interest rates, aggregate financing, etc.) were collected to support potential multi-factor modeling.
+This project applies deep learning to time-series prediction of second-hand housing prices in Beijing. The dataset comprises approximately 319,000 real transaction records from the Lianjia platform, covering daily average prices from 2014 to 2018. Two prediction models are implemented — a 1D Convolutional Neural Network (1D-CNN) and a Long Short-Term Memory network (LSTM) — with Visdom providing real-time training visualization. Additionally, PM2.5 data and 16 macroeconomic indicators (CPI, PMI, money supply, deposit/loan interest rates, aggregate financing, etc.) were collected to support potential multi-factor modeling.
 
 ## 数据说明 / Data
 
