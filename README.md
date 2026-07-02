@@ -6,7 +6,7 @@
 
 刘滨瑞 / Binrui Liu, Tsinghua University
 
-## 项目简介 / Overview
+## 简介 / Introduction
 
 本项目使用深度学习方法对北京市二手房交易价格进行时间序列预测。数据来源于链家（Lianjia）平台约 31.9 万条真实成交记录，涵盖 2014–2018 年的日均价格序列。项目实现了基于一维卷积神经网络（1D-CNN）和长短期记忆网络（LSTM）的两种预测模型，并通过 Visdom 实时可视化训练过程。此外还收集了 PM2.5 数据与 13 项中国宏观经济指标（CPI、PMI、货币供应量、存贷款利率、社会融资规模等），为后续多因素建模提供数据支撑。
 
@@ -53,7 +53,7 @@ This project applies deep learning to time-series prediction of second-hand hous
 | 训练轮次 / Epochs | 100,000 |
 | 预测 / Prediction | 对整段时间序列拟合与预测 / Fitting and prediction over the full time series |
 
-## 运行方式 / Usage
+## 使用方法 / Usage
 
 ### 环境依赖 / Dependencies
 
@@ -93,3 +93,7 @@ HousePricePrediction/
 │   └── CN/              # 宏观经济指标 / Macroeconomic indicators
 └── README.md
 ```
+
+## 声明
+
+本项目为清华大学「工程经济学」课程研究项目，仅供学习交流参考，请勿直接复制用于课程作业提交。
