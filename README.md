@@ -1,10 +1,8 @@
 # HousePricePrediction
 
-基于深度学习的北京二手房价格预测 | Beijing Second-Hand House Price Prediction with Deep Learning
+**基于深度学习的北京二手房价格预测 | Beijing Second-Hand House Price Prediction with Deep Learning**
 
-清华大学吴璟老师「工程经济学」课程研究项目
-
-刘滨瑞 / Binrui Liu, Tsinghua University
+> 清华大学吴璟老师《工程经济学》课程研究项目
 
 ## 简介 / Introduction
 
@@ -29,7 +27,7 @@ This project applies deep learning to time-series prediction of second-hand hous
 | `Data/PM2.5_Peking.csv` | 北京 PM2.5 监测数据（2010 年起） / Beijing PM2.5 monitoring data (from 2010) |
 | `Data/CN/` | 中国宏观经济指标：CPI、PMI、人口、存贷款利率、货币供应量、社会融资规模、税收、进出口等 / Chinese macroeconomic indicators: CPI, PMI, population, interest rates, money supply, aggregate financing, taxation, trade, etc. |
 
-## 模型结构 / Model Architecture
+## 方法 / Method
 
 ### 1D-CNN (`CNNpredict.py`)
 
@@ -96,4 +94,4 @@ HousePricePrediction/
 
 ## 声明
 
-本项目为清华大学「工程经济学」课程研究项目，仅供学习交流参考，请勿直接复制用于课程作业提交。
+本项目为清华大学《工程经济学》课程研究项目，仅供学习交流参考，请勿直接复制用于课程作业提交。
