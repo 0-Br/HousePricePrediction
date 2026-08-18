@@ -38,7 +38,7 @@ This project applies deep learning to time-series prediction of second-hand hous
 | 损失函数 / Loss | Smooth L1 Loss (Huber Loss) |
 | 优化器 / Optimizer | Adam (lr = 1e-5) |
 | 训练轮次 / Epochs | 100 |
-| 预测 / Prediction | 向前滚动预测 180 天 / 180-day rolling forecast |
+| 预测 / Prediction | 自训练集末端向前滚动预测 360 天，含 180 天测试段与 180 天数据末尾之后的外推 / 360-day rolling forecast from the end of the training set: 180 days over the held-out test segment plus 180 days extrapolated beyond the data |
 
 ### LSTM (`RNNpredict.py`)
 
